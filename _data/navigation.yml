@@ -1,12 +1,10 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "About"
+    url: /_pages/about.md  
+  - title: "Discord"
+    url: https://discord.gg/nFJ6AyG  
+  - title: "Twitter"
+    url: https://twitter.com/bnbdiscord
+  - title: "YouTube"
+    url: https://www.youtube.com/channel/UCw-ku0SdQNtcrqyXhjLvZHw
