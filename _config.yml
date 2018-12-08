@@ -20,7 +20,7 @@ title                    : "bits & Bytes"
 title_separator          : "-"
 name                     : ""
 description              : ""
-url                      : "bnbdiscord.net"
+url                      : "https://www.bnbdiscord.net"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -106,7 +106,7 @@ author:
   name             : "bits & Bytes"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : # no.
+  location         : 
   email            :
   links:
     - label: "Email"
@@ -114,7 +114,7 @@ author:
       # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://bnbdiscord.net"
+      # url: "https://www.bnbdiscord.net"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/bnbdiscord"
@@ -291,10 +291,10 @@ defaults:
       share: true
       related: true
 
-      #_pages
-      - scope:
-        path: ""
-        type: pages
-      values:
-        layout: single
-        author_profile: false
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
