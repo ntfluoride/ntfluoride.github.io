@@ -1,5 +1,4 @@
 ---
-layout: markdown
 title: "Memes"
 permalink: /memes/
 
