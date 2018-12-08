@@ -117,7 +117,7 @@ author:
       # url: "https://www.bnbdiscord.net"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-       url: "https://twitter.com/bnbdiscord"
+      # url: "https://twitter.com/bnbdiscord"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -133,7 +133,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/bnbdiscord"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
