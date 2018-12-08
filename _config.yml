@@ -114,7 +114,7 @@ author:
       # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-       url: "https://bnbdiscord.net"
+      # url: "https://bnbdiscord.net"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
        url: "https://twitter.com/bnbdiscord"
