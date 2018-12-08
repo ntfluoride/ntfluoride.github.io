@@ -2,7 +2,7 @@
 title: "Memes"
 permalink: /memes/
 header:
-  teaser: /images/memebanner.png
+  
 ---
 
 Welcome to bits & Bytes' center of memes. Meme Central if you will. 
