@@ -4,6 +4,8 @@ main:
     url: /about/ 
   - title: "Discord"
     url: https://discord.gg/nFJ6AyG  
+  - title: "Memes"
+    url: /memes/ 
   - title: "Twitter"
     url: https://twitter.com/bnbdiscord
   - title: "YouTube"
