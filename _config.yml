@@ -103,9 +103,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "bits & Bytes"
+  name             : # "bits & Bytes"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "The official home for all of those bits and Bytes"
+  bio              : # "The official home for all of those bits and Bytes."
   location         : 
   email            :
   links:
@@ -230,6 +230,9 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-redirect-from
+  - jekyll-twitter-plugin
+
 
 # mimic GitHub Pages with --safe
 whitelist:

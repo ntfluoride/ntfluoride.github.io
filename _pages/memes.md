@@ -6,44 +6,56 @@ header:
   
 ---
 
-Welcome to bits & Bytes' center of memes. Meme Central if you will. 
+Welcome to bits & Bytes' center of memes.
 
 ## The Greatest bits
 
-![alt text](/images/tgbca.jpg "tgbca")
+<img src="/images/memes/tgbca.jpg"  width="256" height="256">
 
-The long-awaited album will be released on December 31st, 2018. It features such hits as Just Give Me a Reason and The Recorder Ballad. 
+The long-awaited album will be released on December 31st, 2018. It features such hits as Just Give Me a Reason and The Recorder Ballad.
 
 ## V- Meme
-[placeholder]
+
+Coming soon!
 
 ### V- Meme 1
-[placeholder]
+
+Coming soon!
 
 ### V- Meme 2
-[placeholder]
+
+Coming soon!
 
 ### V- Meme 3
-[placeholder]
+
+Coming soon!
 
 ### V- Meme 4
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=UO9Ga4eL_xE
-" target="_blank"><img src="http://img.youtube.com/vi/UO9Ga4eL_xE/0.jpg" 
-alt="V- Meme 4 REDUX thumbnail" width="240" height="180" border="10" /></a>
+
+<iframe width="620" height="480" src="http://www.youtube.com/embed/UO9Ga4eL_xE" frameborder="0" allowfullscreen></iframe>
+
 
 ## Jassie Meltdown Packs
 
 ### Basic Pack
-[placeholder]
+
+Includes the general rundown of what happened in November 2017. A couple of goodies are thrown in there as well.
+[Download (2.77 MB)](/downloads/jmp/JMP-BP.zip)
 
 ### Deluxe Pack
-[placeholder]
+
+Includes what's in the Basic Pack but with some more fun stuff mixed in.
+[Download (5.38 MB)](/downloads/jmp/JMP-DP.zip)
 
 ### Double Deluxe Pack
-[placeholder]
+
+Includes what's in the Deluxe Pack but with several extra memes.
+[Download (10.6 MB)](/downloads/jmp/JMP-DDP.zip)
 
 ### Limited Edition Pack
-[placeholder]
+
+Coming soon!
 
 ### Ultimate Pack
-[placeholder]
+
+Coming soon!
