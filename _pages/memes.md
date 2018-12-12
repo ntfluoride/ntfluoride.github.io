@@ -32,8 +32,9 @@ Coming soon!
 
 ### V- Meme 4
 
-<iframe width="620" height="480" src="http://www.youtube.com/embed/UO9Ga4eL_xE" frameborder="0" allowfullscreen></iframe>
-
+ <iframe id="player" type="text/html" width="640" height="390"
+  src="https://www.youtube.com/embed/UO9Ga4eL_xE?enablejsapi=1&origin=https://www.bnbdiscord.net"
+  frameborder="0"></iframe>
 
 ## Jassie Meltdown Packs
 
