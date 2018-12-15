@@ -73,19 +73,10 @@
     text-transform: uppercase;
   }
 
-  li + li:before {
-    content: "";
-    padding-right: 5px;
-  }
-
   a {
     padding-right: 10px;
     font-weight: bold;
   }
 
-  .social-icons {
-    a {
-      white-space: nowrap;
-    }
-  }
+
 }

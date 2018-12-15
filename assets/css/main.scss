@@ -4,5 +4,14 @@
 
 @charset "utf-8";
 
+$link-color: lavender;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+@font-face {
+    font-family: F16;
+    src: url("/assets/fonts/Comfortaa-Regular.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

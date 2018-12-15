@@ -11,11 +11,21 @@ header:
       url: "https://discord.gg/nFJ6AyG"
 ---
 
-<div style="text-align: center;">
-        <h1>Twitter Feed</h1>
-        <a class="twitter-timeline" data-width="960" data-height="540" data-dnt="true" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/bnbdiscord?ref_src=twsrc%5Etfw">Tweets by bits & Bytes</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
+<script type="text/javascript">
 
+var alertmsg = [
+    `The website is currently under construction. If things seem bare and/or broken, keep in mind that it's not completely done yet. Have a nice day!`,
+    `Hmm, it seems that this website isn't quite finished yet. You can still navigate through it, just beware of any broken glass. Cheers!`,
+    `The bits & Bytes website is currently under contstruction. Enjoy what you can.`
+]
+var randomaltmsg = alertmsg[Math.floor(Math.random() * alertmsg.length)];
+
+  var alerted = localStorage.getItem('alerted') || '';
+  if (alerted != 'yes') {
+   alert(randomaltmsg);
+   localStorage.setItem('alerted','yes');
+  }
+</script>
 
 
 
