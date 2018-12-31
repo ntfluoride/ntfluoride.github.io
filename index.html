@@ -11,6 +11,21 @@ header:
       url: "https://discord.gg/nFJ6AyG"
 ---
 
+<style>
+  .button {
+  background-color:#191E25;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  border: 2px solid #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+</style>
+
 <script type="text/javascript">
 
 var alertmsg = [
@@ -26,6 +41,19 @@ var randomaltmsg = alertmsg[Math.floor(Math.random() * alertmsg.length)];
    localStorage.setItem('alerted','yes');
   }
 </script>
+
+<div style="text-align: center;">
+
+  <h1>The Greatest bits Album</h1>
+  
+  <img src="/images/memes/greatestbitscover.jpg"  width="512" height="256">
+
+  <br>
+  <br>
+
+  <p>The long-awaited album is here! Go ahead and grab it so you can listen to those sweet memes.</p>
+  <button class="button" type="button" onclick="window.location.href=`/memes/the-greatest-bits`">Take me to it!</button>
+</div>
 
 
 
