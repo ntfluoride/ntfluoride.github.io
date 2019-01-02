@@ -5,7 +5,7 @@ author_profile: false
 excerpt: "We're different. Take that any way you want to."
 header:
   overlay_image: /images/bnb/memebanner.jpg
-  overlay_filter: 0.5
+  overlay_filter: 0.75
   actions:
     - label: "Join us on Discord"
       url: "https://discord.gg/nFJ6AyG"
@@ -14,10 +14,15 @@ header:
 <style>
   img {
   border-radius: 5%;
+  -moz-box-shadow: 0px 0px 20px rgb(12, 12, 12);
+		-webkit-box-shadow: 0px 0px 20px rgb(12, 12, 12);
+		box-shadow: 0px 0px 20px rgb(12, 12, 12);
 }
 
   .button {
-  background-color:#191E25;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  background-color:rgb(52, 93, 146);
   border: none;
   color: white;
   border-radius: 12px;
@@ -27,6 +32,25 @@ header:
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
+  -webkit-box-shadow: inset 0px 0px 10px rgb(48, 48, 48);
+   -moz-box-shadow:    inset 0px 0px 10px rgb(48, 48, 48);
+   box-shadow:         inset 0px 0px 10px rgb(48, 48, 48);
+}
+
+button:active {
+  -webkit-box-shadow: inset 0px 0px 20px rgb(48, 48, 48);
+   -moz-box-shadow:    inset 0px 0px 20px rgb(48, 48, 48);
+   box-shadow:         inset 0px 0px 20px rgb(48, 48, 48);
+}
+
+button:focus {
+    outline-style: none
+}
+
+button.hover {
+  -webkit-box-shadow: inset 0px 0px 5px rgb(255, 255, 255);
+   -moz-box-shadow:    inset 0px 0px 5px rgb(255, 255, 255);
+   box-shadow:         inset 0px 0px 5px rgb(255, 255, 255);
 }
 </style>
 
