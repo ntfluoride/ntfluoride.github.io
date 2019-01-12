@@ -8,115 +8,23 @@ header:
   overlay_filter: 0.75
 ---
 
-<!-- Internal CSS bitch -->
+<!-- External CSS bitch -->
 
-<style>
-.button {
-  -webkit-transition-duration: 0.2s;
-  transition-duration: 0.2s;
-}
-
-img {
-  border-radius: 50%;
-  -moz-box-shadow: 0px 0px 15px rgb(12, 12, 12);
-		-webkit-box-shadow: 0px 0px 15px rgb(12, 12, 12);
-		box-shadow: 0px 0px 15px rgb(12, 12, 12);
-}
-
-.NormalButton  {
-  background-color:#191E25;
-  border: none;
-  color: white;
-  border-radius: 12px;
-  border: 2px solid #ffffff;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  -webkit-box-shadow: inset 0px 0px 10px rgb(48, 48, 48);
-   -moz-box-shadow:    inset 0px 0px 10px rgb(48, 48, 48);
-   box-shadow:         inset 0px 0px 10px rgb(48, 48, 48);
-}
-
-button:active {
-  -webkit-box-shadow: inset 0px 0px 20px rgb(48, 48, 48);
-   -moz-box-shadow:    inset 0px 0px 20px rgb(48, 48, 48);
-   box-shadow:         inset 0px 0px 20px rgb(48, 48, 48);
-}
-
-button:focus {
-    outline-style: none
-}
-
-button.hover {
-  -webkit-box-shadow: inset 0px 0px 10px rgb(255, 255, 255);
-   -moz-box-shadow:    inset 0px 0px 10px rgb(255, 255, 255);
-   box-shadow:         inset 0px 0px 10px rgb(255, 255, 255);
-}
-
-.TwitterButton  {
-  background-color:#00aced;
-  border: none;
-  color: white;
-  border-radius: 12px;
-  border: 2px solid #ffffff;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  -webkit-box-shadow: inset 0px 0px 10px rgb(48, 48, 48);
-   -moz-box-shadow:    inset 0px 0px 10px rgb(48, 48, 48);
-   box-shadow:         inset 0px 0px 10px rgb(48, 48, 48);
-}
-
-.WebsiteButton  {
-  background-color:#00b88a;
-  border: none;
-  color: white;
-  border-radius: 12px;
-  border: 2px solid #ffffff;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  -webkit-box-shadow: inset 0px 0px 10px rgb(48, 48, 48);
-   -moz-box-shadow:    inset 0px 0px 10px rgb(48, 48, 48);
-   box-shadow:         inset 0px 0px 10px rgb(48, 48, 48);
-}
-
-.YouTubeButton  {
-  background-color:#FF0000;
-  border: none;
-  color: white;
-  border-radius: 12px;
-  border: 2px solid #ffffff;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  -webkit-box-shadow: inset 0px 0px 10px rgb(48, 48, 48);
-   -moz-box-shadow:    inset 0px 0px 10px rgb(48, 48, 48);
-   box-shadow:         inset 0px 0px 10px rgb(48, 48, 48);
-}
-</style>
+<link rel="stylesheet" href="/assets/css/style.css">
 
 <!-- Okay, that's enough -->
 
 &nbsp;
 
 <div style="text-align: center;">
-<p><h1>Staff</h1>
+<p><h1>Staff Directory</h1>
 
 Meet our staff that help the community keep spinning. ...Spinning? 
 
-<h2>Jelle - Administrator</h2>
+<h2 class="AdminHeaderColor">Jelle (Administrator)</h2>
 <br>
 <br>
-<img src="/images/staff/Jelle.png"  width="256" height="256">
+<img class="StaffAvatar" src="/images/staff/Jelle.png"  width="256" height="256">
 &nbsp;
 <h3>Likes: </h3>Centrism, Aren, Mr. Pizza, Italy, trains. 
 <h3>Dislikes: </h3>Being called "Jelly", the French, buses.
@@ -127,10 +35,10 @@ Meet our staff that help the community keep spinning. ...Spinning?
 <br>
 <br>
 
-<h2>Neptunium Fluoride - Owner</h2>
+<h2 class="AdminHeaderColor">Neptunium Fluoride (Owner)</h2>
 <br>
 <br>
-<img src="/images/staff/Cameron.jpg"  width="256" height="256">
+<img class="StaffAvatar" src="/images/staff/Cameron.jpg"  width="256" height="256">
 &nbsp;
 <h3>Likes: </h3>Always being correct, high quality memes, "lel". 
 <h3>Dislikes: </h3>Annoyance, Apple, J-Man. 
@@ -141,10 +49,10 @@ Meet our staff that help the community keep spinning. ...Spinning?
 <br>
 <br>
 
-<h2>Nevulo - Moderator</h2>
+<h2 class="ModHeaderColor">Nevulo (Moderator)</h2>
 <br>
 <br>
-<img src="/images/staff/Nevulo.jpg"  width="256" height="256">
+<img class="StaffAvatar" src="/images/staff/Nevulo.jpg"  width="256" height="256">
 &nbsp;
 <h3>Likes: </h3>Dank stuff, hot stuff, phallic stuff, stuff stuff. 
 <h3>Dislikes: </h3>Apple earphones, doors, Git, Victor.
@@ -155,24 +63,10 @@ Meet our staff that help the community keep spinning. ...Spinning?
 <br>
 <br>
 
-<h2>vicr123 - Administrator</h2>
+<h2 class="ModHeaderColor">projsh_ (Moderator)</h2>
 <br>
 <br>
-<img src="/images/staff/Victor.jpg"  width="256" height="256">
-&nbsp;
-<h3>Likes: </h3>Qt, Air Supply, OSFirstTimer, Maccas. 
-<h3>Dislikes: </h3>Swearing, carrot cake, people's ignorance about political correctness. 
-<br>
-<br>
-<button class="button TwitterButton" type="button" onclick="window.location.href=`https://twitter.com/vicr12345`">Twitter</button> <button class="button WebsiteButton" type="button" onclick="window.location.href=`https://vicr123.com`">Website</button> <button class="button YouTubeButton" type="button" onclick="window.location.href=`https://www.youtube.com/channel/UCCD3mx0y2KSbD0eFJ0WGOBg`">YouTube</button>
-
-<br>
-<br>
-
-<h2>projsh_ - Moderator</h2>
-<br>
-<br>
-<img src="/images/staff/Josh.gif"  width="256" height="256">
+<img class="StaffAvatar" src="/images/staff/Josh.jpg"  width="256" height="256">
 &nbsp;
 <h3>Likes: </h3>PewDiePie, being a professional Josh underscore. 
 <h3>Dislikes: </h3>Peer pressure. 
@@ -183,10 +77,24 @@ Meet our staff that help the community keep spinning. ...Spinning?
 <br>
 <br>
 
-<h2>Vrabbers - Moderator</h2>
+<h2 class="AdminHeaderColor">vicr123 (Administrator)</h2>
 <br>
 <br>
-<img src="/images/staff/Vrabbers.png"  width="256" height="256"> 
+<img class="StaffAvatar" src="/images/staff/Victor.jpg"  width="256" height="256">
+&nbsp;
+<h3>Likes: </h3>Qt, Air Supply, OSFirstTimer, Maccas. 
+<h3>Dislikes: </h3>Swearing, carrot cake, people's ignorance about political correctness. 
+<br>
+<br>
+<button class="button TwitterButton" type="button" onclick="window.location.href=`https://twitter.com/vicr12345`">Twitter</button> <button class="button WebsiteButton" type="button" onclick="window.location.href=`https://vicr123.com`">Website</button> <button class="button YouTubeButton" type="button" onclick="window.location.href=`https://www.youtube.com/channel/UCCD3mx0y2KSbD0eFJ0WGOBg`">YouTube</button>
+
+<br>
+<br>
+
+<h2 class="ModHeaderColor">Vrabbers (Moderator)</h2>
+<br>
+<br>
+<img class="StaffAvatar" src="/images/staff/Vrabbers.png"  width="256" height="256"> 
 &nbsp;
 <h3>Likes: </h3>Planes, trains, playing the recorder. 
 <h3>Dislikes: </h3>His old profile picture, obeying rules. 
