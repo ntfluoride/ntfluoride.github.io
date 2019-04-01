@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark
 
 # Site Settings
 locale                   : "en-US"
-title                    : "bits & Bytes"
+title                    : "AstralPhaser Central"
 title_separator          : "-"
 name                     : ""
 description              : ""
@@ -103,9 +103,9 @@ analytics:
 
 # Site Author
 author:
-  name             : # "bits & Bytes"
+  name             : # "AstralPhaser Central"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : # "The official home for all of those bits and Bytes."
+  bio              : # "The official home for all of those AstralPhaser Central memes."
   location         : 
   email            :
   links:
