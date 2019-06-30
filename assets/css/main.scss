@@ -347,6 +347,88 @@ border-radius: 5%;
      box-shadow:         inset 0px 0px 10px rgb(255, 255, 255);
     }
 
+.badhombresButton  {
+      background-color:#191E25;
+      color: white;
+      overflow: hidden;
+    /* IE 6/7 fallback */
+      *text-indent: -9999px;
+      border: 4px solid #000000;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 50%;
+      font-size: 18px;
+      height: 256px; 
+      width: 256px;
+      background-image:url('/images/memes/badhombres.jpg');
+      background-repeat:no-repeat;
+      background-size: 100% 100%;
+      -webkit-transition-duration: 1.5s;
+      transition-duration: 1.5s;
+      -moz-box-shadow: 0px 0px 15px rgb(12, 12, 12);
+      -webkit-box-shadow: 0px 0px 15px rgb(12, 12, 12);
+      box-shadow: 0px 0px 15px rgb(12, 12, 12);
+      }
+      
+.badhombresButton:active {
+        -moz-box-shadow: inset 0px 0px 15px rgb(12, 12, 12);
+        -webkit-box-shadow: inset 0px 0px 15px rgb(12, 12, 12);
+        box-shadow: inset 0px 0px 15px rgb(12, 12, 12);
+      }
+      
+.badhombresButton:focus {
+        outline-style: none
+      }
+      
+.badhombresButton.hover {
+      -webkit-box-shadow: inset 0px 0px 10px rgb(255, 255, 255);
+       -moz-box-shadow:    inset 0px 0px 10px rgb(255, 255, 255);
+       box-shadow:         inset 0px 0px 10px rgb(255, 255, 255);
+      }    
+
+.ttsworldButton  {
+        background-color:#191E25;
+        color: white;
+        overflow: hidden;
+      /* IE 6/7 fallback */
+        *text-indent: -9999px;
+        border: 4px solid #000000;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 50%;
+        font-size: 18px;
+        height: 256px; 
+        width: 256px;
+        background-image:url('/images/memes/ttsworld.jpg');
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+        -webkit-transition-duration: 1.5s;
+        transition-duration: 1.5s;
+        -moz-box-shadow: 0px 0px 15px rgb(12, 12, 12);
+        -webkit-box-shadow: 0px 0px 15px rgb(12, 12, 12);
+        box-shadow: 0px 0px 15px rgb(12, 12, 12);
+        }
+        
+.ttsworldButton:active {
+          -moz-box-shadow: inset 0px 0px 15px rgb(12, 12, 12);
+          -webkit-box-shadow: inset 0px 0px 15px rgb(12, 12, 12);
+          box-shadow: inset 0px 0px 15px rgb(12, 12, 12);
+        }
+        
+.ttsworldButton:focus {
+          outline-style: none
+        }
+        
+.ttsworldButton.hover {
+        -webkit-box-shadow: inset 0px 0px 10px rgb(255, 255, 255);
+         -moz-box-shadow:    inset 0px 0px 10px rgb(255, 255, 255);
+         box-shadow:         inset 0px 0px 10px rgb(255, 255, 255);
+        }
+
     .greatestbitsButton  {
       background-color:#191E25;
       color: white;
