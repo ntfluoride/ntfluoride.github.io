@@ -10,7 +10,7 @@
   padding-right: 1em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
-  max-width: 95%;
+  max-width: 90%;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
 
@@ -132,6 +132,7 @@
   animation: $intro-transition;
   -webkit-animation-delay: 0.25s;
   animation-delay: 0.25s;
+ 
 
   &--overlay {
     position: relative;
@@ -185,6 +186,7 @@
   width: 100%;
   height: auto;
   -ms-interpolation-mode: bicubic;
+  
 }
 
 .page__hero-caption {

@@ -4,12 +4,13 @@
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 2px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  background-color:black;
 
   &__inner-wrap {
     @include clearfix;
@@ -24,6 +25,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     font-family: $sans-serif-narrow;
+    background-color:black;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -31,6 +33,7 @@
 
     nav {
       z-index: 10;
+      background-color:black;
     }
 
     a {
@@ -47,6 +50,7 @@
   align-self: center;
   font-weight: bold;
   z-index: 20;
+  background-color:black;
 }
 
 .masthead__menu {
@@ -55,10 +59,12 @@
   margin-right: 0;
   width: 100%;
   clear: both;
+  background-color:black;
+  
 
   .site-nav {
     margin-left: 0;
-
+    background-color:black;
     @include breakpoint($small) {
       float: right;
     }
@@ -75,10 +81,11 @@
 .masthead__menu-item {
   display: block;
   list-style-type: none;
+  background-color:black;
   white-space: nowrap;
 
   &--lg {
     padding-right: 2em;
-    font-weight: 700;
+    font-weight: 1000;
   }
 }

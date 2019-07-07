@@ -5,7 +5,7 @@
 @charset "utf-8";
 
 $link-color: #5d88d3;
-$background-color:#0a1018;
+$background-color:#05080c;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -276,7 +276,7 @@ border-radius: 5%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  border-radius: 50%;
+  border-radius: 25%;
   font-size: 18px;
   height: 256px; 
   width: 256px;
@@ -317,7 +317,7 @@ border-radius: 5%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 50%;
+    border-radius: 25%;
     font-size: 18px;
     height: 256px; 
     width: 256px;
@@ -358,7 +358,7 @@ border-radius: 5%;
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      border-radius: 50%;
+      border-radius: 25%;
       font-size: 18px;
       height: 256px; 
       width: 256px;
@@ -399,7 +399,7 @@ border-radius: 5%;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        border-radius: 50%;
+        border-radius: 25%;
         font-size: 18px;
         height: 256px; 
         width: 256px;
@@ -440,7 +440,7 @@ border-radius: 5%;
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      border-radius: 50%;
+      border-radius: 25%;
       font-size: 18px;
       height: 256px; 
       width: 256px;
@@ -470,6 +470,48 @@ border-radius: 5%;
        box-shadow:         inset 0px 0px 10px rgb(255, 255, 255);
       }
 
+.biglyhitsButton  {
+        background-color:#191E25;
+        color: white;
+        overflow: hidden;
+      /* IE 6/7 fallback */
+        *text-indent: -9999px;
+        border: 4px solid #000000;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 25%;
+        font-size: 18px;
+        height: 256px; 
+        width: 256px;
+        background-image:url('/images/memes/biglyhits.jpg');
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+        -webkit-transition-duration: 1.5s;
+        transition-duration: 1.5s;
+        -moz-box-shadow: 0px 0px 15px rgb(12, 12, 12);
+        -webkit-box-shadow: 0px 0px 15px rgb(12, 12, 12);
+        box-shadow: 0px 0px 15px rgb(12, 12, 12);
+        }
+        
+.biglyhitsButton:active {
+          -moz-box-shadow: inset 0px 0px 15px rgb(12, 12, 12);
+          -webkit-box-shadow: inset 0px 0px 15px rgb(12, 12, 12);
+          box-shadow: inset 0px 0px 15px rgb(12, 12, 12);
+        }
+        
+.biglyhitsButton:focus {
+          outline-style: none
+        }
+        
+.biglyhitsButton.hover {
+        -webkit-box-shadow: inset 0px 0px 10px rgb(255, 255, 255);
+         -moz-box-shadow:    inset 0px 0px 10px rgb(255, 255, 255);
+         box-shadow:         inset 0px 0px 10px rgb(255, 255, 255);
+        }    
+  
+
 .jassiepacksButton  {
     background-color:#191E25;
     color: white;
@@ -481,7 +523,7 @@ border-radius: 5%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 50%;
+    border-radius: 25%;
     font-size: 18px;
     height: 256px; 
     width: 256px;
@@ -522,7 +564,7 @@ border-radius: 5%;
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      border-radius: 50%;
+      border-radius: 25%;
       font-size: 18px;
       height: 256px; 
       width: 256px;
@@ -562,7 +604,7 @@ border-radius: 5%;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        border-radius: 50%;
+        border-radius: 25%;
         font-size: 18px;
         height: 256px; 
         width: 256px;
@@ -603,7 +645,7 @@ border-radius: 5%;
           text-align: center;
           text-decoration: none;
           display: inline-block;
-          border-radius: 50%;
+          border-radius: 25%;
           font-size: 18px;
           height: 256px; 
           width: 256px;
@@ -631,42 +673,4 @@ border-radius: 5%;
           -webkit-box-shadow: inset 0px 0px 10px rgb(255, 255, 255);
            -moz-box-shadow:    inset 0px 0px 10px rgb(255, 255, 255);
            box-shadow:         inset 0px 0px 10px rgb(255, 255, 255);
-          }
-
-.tooltip {
-            position: relative;
-            display: inline-block;
-          }
-          
-.tooltip .tooltiptext {
-            visibility: hidden;
-            width: 140px;
-            background-color: #555;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            padding: 5px;
-            position: absolute;
-            z-index: 1;
-            bottom: 150%;
-            left: 50%;
-            margin-left: -75px;
-            opacity: 0;
-            transition: opacity 0.3s;
-          }
-          
-.tooltip .tooltiptext::after {
-            content: "";
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            margin-left: -5px;
-            border-width: 5px;
-            border-style: solid;
-            border-color: #555 transparent transparent transparent;
-          }
-          
-.tooltip:hover .tooltiptext {
-            visibility: visible;
-            opacity: 1;
           }
