@@ -3,9 +3,13 @@ main:
   - title: "About"
     url: /about
   - title: "Discord"
-    url: https://discord.gg/nFJ6AyG  
+    url: https://discord.gg/nFJ6AyG
+  - title: "Games"
+    url: /games   
   - title: "Memes"
     url: /memes 
+  - title: "Music"
+    url: /music 
   - title: "Twitter"
     url: https://twitter.com/bnbdiscord
   - title: "YouTube"

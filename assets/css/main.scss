@@ -72,6 +72,41 @@ $background-color:#05080c;
      box-shadow:         inset 0px 0px 10px rgb(255, 255, 255);
   }
 
+/* Preview Button */ 
+.SingleButton  {
+  background-color:#203f5a;
+  color: white;
+  border-radius: 12px;
+  border: 2px solid hsl(0, 0%, 0%);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bolder;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-box-shadow: inset 0px 0px 10px rgb(0, 0, 0);
+   -moz-box-shadow:    inset 0px 0px 10px rgb(0, 0, 0);
+   box-shadow:         inset 0px 0px 10px rgb(0, 0, 0);
+}
+
+.SingleButton:active {
+  -webkit-box-shadow: inset 0px 0px 20px rgb(0, 0, 0);
+   -moz-box-shadow:    inset 0px 0px 20px rgb(0, 0, 0);
+   box-shadow:         inset 0px 0px 20px rgb(0, 0, 0);
+}
+
+.SingleButton:focus {
+    outline-style: none
+}
+
+.SingleButton.hover {
+  -webkit-box-shadow: inset 0px 0px 10px rgb(255, 255, 255);
+   -moz-box-shadow:    inset 0px 0px 10px rgb(255, 255, 255);
+   box-shadow:         inset 0px 0px 10px rgb(255, 255, 255);
+}
+
 
 /* Normal Button */
 
@@ -305,6 +340,88 @@ border-radius: 5%;
    -moz-box-shadow:    inset 0px 0px 10px rgb(255, 255, 255);
    box-shadow:         inset 0px 0px 10px rgb(255, 255, 255);
   }
+
+.simsButton  {
+    background-color:#191E25;
+    color: white;
+    overflow: hidden;
+  /* IE 6/7 fallback */
+    *text-indent: -9999px;
+    border: 4px solid #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25%;
+    font-size: 18px;
+    height: 256px; 
+    width: 256px;
+    background-image:url('/images/memes/plumbob.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    -webkit-transition-duration: 1.5s;
+    transition-duration: 1.5s;
+    -moz-box-shadow: 0px 0px 15px rgb(12, 12, 12);
+    -webkit-box-shadow: 0px 0px 15px rgb(12, 12, 12);
+    box-shadow: 0px 0px 15px rgb(12, 12, 12);
+    }
+    
+.simsButton:active {
+      -moz-box-shadow: inset 0px 0px 15px rgb(12, 12, 12);
+      -webkit-box-shadow: inset 0px 0px 15px rgb(12, 12, 12);
+      box-shadow: inset 0px 0px 15px rgb(12, 12, 12);
+    }
+    
+.simsButton:focus {
+      outline-style: none
+    }
+    
+.simsButton.hover {
+    -webkit-box-shadow: inset 0px 0px 10px rgb(255, 255, 255);
+     -moz-box-shadow:    inset 0px 0px 10px rgb(255, 255, 255);
+     box-shadow:         inset 0px 0px 10px rgb(255, 255, 255);
+    }
+
+.switchButton  {
+      background-color:#FFFFFF;
+      color: white;
+      overflow: hidden;
+    /* IE 6/7 fallback */
+      *text-indent: -9999px;
+      border: 4px solid #000000;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 25%;
+      font-size: 18px;
+      height: 256px; 
+      width: 256px;
+      background-image:url('/images/memes/switchlogo.png');
+      background-repeat:no-repeat;
+      background-size: 100% 100%;
+      -webkit-transition-duration: 1.5s;
+      transition-duration: 1.5s;
+      -moz-box-shadow: 0px 0px 15px rgb(12, 12, 12);
+      -webkit-box-shadow: 0px 0px 15px rgb(12, 12, 12);
+      box-shadow: 0px 0px 15px rgb(12, 12, 12);
+      }
+      
+.switchButton:active {
+        -moz-box-shadow: inset 0px 0px 15px rgb(12, 12, 12);
+        -webkit-box-shadow: inset 0px 0px 15px rgb(12, 12, 12);
+        box-shadow: inset 0px 0px 15px rgb(12, 12, 12);
+      }
+      
+.switchButton:focus {
+        outline-style: none
+      }
+      
+.switchButton.hover {
+      -webkit-box-shadow: inset 0px 0px 10px rgb(255, 255, 255);
+       -moz-box-shadow:    inset 0px 0px 10px rgb(255, 255, 255);
+       box-shadow:         inset 0px 0px 10px rgb(255, 255, 255);
+      }
 
 .trumpButton  {
     background-color:#191E25;
