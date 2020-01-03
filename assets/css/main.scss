@@ -9,16 +9,13 @@ $background-color:#05080c;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
 
-//@font-face {
-//    font-family: F16;
-//   src: url("/assets/fonts/Comfortaa-Regular.ttf") format('truetype');
-//    font-weight: bold;
-//    font-style: normal;
-//}
-
-$font-family: 'IBM Plex Sans', sans-serif;
+@font-face {
+  font-family: F16;
+  src: url("/assets/fonts/Comfortaa-Regular.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 
  /* Dummy Button */ 
  .dummy  {
