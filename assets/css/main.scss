@@ -44,6 +44,7 @@ $background-color:#05080c;
     border-radius: 12px;
     border: 2px dashed hsl(0, 0%, 0%);
     padding: 15px 32px;
+    margin: 6px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -117,6 +118,7 @@ color: white;
 border-radius: 12px;
 border: 2px solid #000000;
 padding: 15px 32px;
+margin: 6px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
@@ -155,6 +157,7 @@ color: rgb(255, 255, 255);
 border-radius: 12px;
 border: 2px solid #000000;
 padding: 15px 32px;
+margin: 6px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
@@ -193,6 +196,7 @@ color: white;
 border-radius: 12px;
 border: 2px solid #000000;
 padding: 15px 32px;
+margin: 6px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
@@ -231,6 +235,7 @@ color: white;
 border-radius: 12px;
 border: 2px solid #000000;
 padding: 15px 32px;
+margin: 6px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
@@ -485,6 +490,51 @@ border-radius: 5%;
      -moz-box-shadow:    inset 0px 0px 10px rgb(196, 108, 0);
      box-shadow:         inset 0px 0px 10px rgb(196, 108, 0);
     }
+
+
+.vrabbersButton  {
+      background-color:#172215;
+      color: green;
+      overflow: hidden;
+    /* IE 6/7 fallback */
+      *text-indent: -9999px;
+      border: 4px solid #000000;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 25%;
+      font-size: 40px;
+      height: 256px; 
+      width: 256px;
+      //background-image:url('/images/memes/TR50ToM.jpg');
+      background-repeat:no-repeat;
+      background-size: 100% 100%;
+      -webkit-transition-duration: 1.5s;
+      transition-duration: 1.5s;
+      text-shadow: 0px 0px 16px rgb(0, 148, 0);
+      -moz-box-shadow: 0px 0px 20px rgb(0, 148, 0);
+      -webkit-box-shadow: 0px 0px 20px rgb(0, 148, 0);
+      box-shadow: 0px 0px 20px rgb(0, 148, 0);
+      }
+      
+.vrabbersButton:active {
+        -moz-box-shadow: inset 0px 0px 20px rgb(0, 148, 0);
+        -webkit-box-shadow: inset 0px 0px 20px rgb(0, 148, 0);
+        box-shadow: inset 0px 0px 20px rgb(0, 148, 0);
+      }
+      
+.vrabbersButton:focus {
+        outline-style: none
+      }
+      
+.vrabbersButton.hover {
+      -webkit-box-shadow: inset 0px 0px 10px rgb(0, 148, 0);
+       -moz-box-shadow:    inset 0px 0px 10px rgb(0, 148, 0);
+       box-shadow:         inset 0px 0px 10px rgb(0, 148, 0);
+      }
+
+
 
 .badhombresButton  {
       background-color: lightgray;
